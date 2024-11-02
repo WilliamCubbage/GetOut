@@ -1,0 +1,6 @@
+@GetOut_HostAddress = http://localhost:5274
+
+GET {{GetOut_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
