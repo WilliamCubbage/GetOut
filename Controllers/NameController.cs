@@ -9,7 +9,7 @@ namespace YourNamespace.Controllers
         [HttpGet]
         public IActionResult GetName()
         {
-            var result = new { Name = "Your Name" }; // Replace "Your Name" with your actual name
+            var result = new { Name = "William Cubbage" }; 
             return Ok(result);
         }
     }
